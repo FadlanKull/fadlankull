@@ -13,7 +13,7 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
     method: 'GET',
     headers: {
       'authorization': auth
-    }
+    }F. Fa
   })
     .then(res => res.text())
     .then(data => {
@@ -28,10 +28,10 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 (async () => {
 
   console.log(`Trophy And Crown Hack Safe! [FadlanKull ]
-By : ${chalk.bold('xDast#8745')} - Credit : @dkmpostor & @FadlanKull
+By : ${chalk.bold('Fadlan Ganteng 🤘😎')} - Credit : @dkmpostor & @FadlanKull
 `);
 
-  const auth = rs.question('Enter Authentication Code! : ');
+  const auth = rs.question('Tempel Kode auth di sini sayang😘! : ');
   console.log('');
 
   while (true) {
