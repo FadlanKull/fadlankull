@@ -13,7 +13,7 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
     method: 'GET',
     headers: {
       'authorization': auth
-    }F. Fa
+    }
   })
     .then(res => res.text())
     .then(data => {
