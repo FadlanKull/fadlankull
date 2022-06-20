@@ -51,7 +51,7 @@ By : ${chalk.bold('Fadlan Ganteng 🤘😎')} - Credit : @dkmpostor & @FadlanKul
       const crown = data.User.Crowns;
 
 console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.white(`User : ${username}`)} | ${chalk.yellow(`Trophy : ${trophy}`)} | ${chalk.red(`Crown : ${crown}`)}`));
-      await sleep(1500);
+      await sleep(3500);
 
     } else if (result == 'BANNED') {
       console.log(chalk.bgRed(`Akun lu ke band bang, Maaf🥶 !!`));
