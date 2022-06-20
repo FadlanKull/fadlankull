@@ -27,11 +27,12 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 
 (async () => {
 
-  console.log(`Trophy And Crown Hack Safe! [ReEdit]
-By : ${chalk.bold('xDast#8745')} - Credit : @dkmpostor & @Eskey
+  console.log(`Trophy Dan Crown Hack Safe/Aman! [FadlanKull]
+By : ${chalk.bold('FadlanGamteng#1')} - Credit : @dkmpostor & @FadlanKull
+
 `);
 
-  const auth = rs.question('Enter Authentication Code! : ');
+  const auth = rs.question('Tempel Kode auth di sini sayang 😘 : ');
   console.log('');
 
   while (true) {
@@ -51,10 +52,10 @@ By : ${chalk.bold('xDast#8745')} - Credit : @dkmpostor & @Eskey
       const crown = data.User.Crowns;
 
 console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.white(`User : ${username}`)} | ${chalk.yellow(`Trophy : ${trophy}`)} | ${chalk.red(`Crown : ${crown}`)}`));
-      await sleep(6500);
+      await sleep(1500);
 
     } else if (result == 'BANNED') {
-      console.log(chalk.bgRed(`Your Account has been Banned`));
+      console.log(chalk.bgRed(`Akun lu ke BAND. Kasian amat😭`));
      break;
     }
   }
