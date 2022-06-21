@@ -50,7 +50,7 @@ By : ${chalk.bold('Fadlan Ganteng 🤘😎')} - Credit : @dkmpostor & @FadlanKul
       const trophy = data.User.SkillRating;
       const crown = data.User.Crowns;
 
-console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.white(`User : ${username}`)} | ${chalk.yellow(`Trophy : ${trophy}`)} | ${chalk.red(`Crown : ${crown}`)}`));
+console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.yellow(`User : ${username}`)} | ${chalk.magenta(`Trophy : ${trophy}`)} | ${chalk.cyan(`Crown : ${crown}`)}`));
       await sleep(1500);
 
     } else if (result == 'BANNED') {
