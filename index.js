@@ -40,7 +40,7 @@ By : ${chalk.bold('Fadlan Ganteng 🤘😎')} - Credit : @dkmpostor & @FadlanKul
     if (!result) {
 
       console.log(chalk.red(`\r[ ${moment().format('HH:mm:ss')} ] Authentication Code Not Valid`));
-      break;
+      
 
     } else if (result.includes('User')) {
 
